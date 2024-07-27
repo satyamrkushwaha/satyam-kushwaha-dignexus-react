@@ -6,18 +6,19 @@ import Navbar from '../../helperComponents/Navbar'
 import ArtGallery from '../../assets/icons/art-gallery.png'
 import Search from '../../helperComponents/Search'
 import { contactDetails } from '../../constants/constants'
+import Button from '../../helperComponents/Button'
 
 export default function Header() {
   return (
     <div className='header-main-container'>
       <Brand />
       <div className="header-sub-container">
-        <div>
-          <div>
+        <div className='art-gallery-email-conatiner'>
+          <div className='flex' >
             <img src={ArtGallery} alt="Logo" />
             <span>Visit Our Abundantart Art Gallery</span>
           </div>
-          <div>
+          <div className='flex'>
             <img src={contactDetails?.email?.icon} alt="Logo" />
             <span>{contactDetails?.email?.content}</span>
           </div>
@@ -25,13 +26,12 @@ export default function Header() {
             <SocialBand />
           </div>
         </div>
-        <div>
-          <div>
+          <div className='flex' >
             <Navbar />
             <Search />
+            <Button text="DONATE" leftIcon={true} variant={'red'} />
           </div>
-        </div>
       </div>
     </div>
-  )
+  ) 
 }

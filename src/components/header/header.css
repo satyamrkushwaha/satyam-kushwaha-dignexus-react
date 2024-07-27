@@ -4,3 +4,9 @@
     padding: 20px;
     align-items: center;
 }
+
+.art-gallery-email-conatiner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

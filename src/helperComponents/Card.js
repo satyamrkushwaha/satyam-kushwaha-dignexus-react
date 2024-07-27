@@ -13,10 +13,8 @@ export default function Card({ image, title, date, description, buttonText, onBu
         <hr className="card-divider" />
         <p className="card-date">{date}</p>
         <p className="card-description">{description}</p>
-        <Button text={buttonText} onClick={onButtonClick} />
+        {buttonText && <Button text={buttonText} onClick={onButtonClick} />}
       </div>
-    
-    
     </div>
   )
 }
