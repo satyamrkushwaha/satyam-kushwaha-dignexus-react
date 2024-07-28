@@ -7,9 +7,10 @@ import ArtGallery from '../../assets/icons/art-gallery.png'
 import Search from '../../helperComponents/Search'
 import { contactDetails } from '../../constants/constants'
 import Button from '../../helperComponents/Button'
+import HeroSection from '../../helperComponents/HeroSection'
 
 export default function Header() {
-  return (
+  return (<>
     <div className='header-main-container'>
       <Brand />
       <div className="header-sub-container">
@@ -33,5 +34,6 @@ export default function Header() {
           </div>
       </div>
     </div>
-  ) 
+    <HeroSection/>
+    </>) 
 }

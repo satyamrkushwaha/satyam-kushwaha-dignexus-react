@@ -29,6 +29,10 @@ export const contactDetails = {
         icon: Web,
         content: "www.abundantart.net",       
     },
+    webGallery: {
+        icon: Web,
+        content: "www.abundantartgallery.com",       
+    },
 }
 
 
