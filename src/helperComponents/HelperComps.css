@@ -1,15 +1,17 @@
 /* Section Title Style */
 
 .main-title {
+  margin-top: 40px;
   display: flex;
   align-items: flex-end;
   gap: 5px;
 }
 
 .main-title h1 {
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   color: #333;
+  line-height: 1;
 }
 
 .main-title .underline {
@@ -126,12 +128,21 @@
   gap: 10px;
 }
 
+
+/* nav-bar styles  */
+
 .navbar-main-container {
   display: flex;
   justify-content: space-between;
   padding: 5px;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+}
+
+.navbar-main-container a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
 }
 
 /* five-box-grid style */
@@ -175,7 +186,7 @@
 }
 
 .hero-right-section-main-container {
-  width: 50%;
+  width: 40%;
   color: white;
 }
 
@@ -191,6 +202,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 50px;
+  width: 100%;
 }
 
 

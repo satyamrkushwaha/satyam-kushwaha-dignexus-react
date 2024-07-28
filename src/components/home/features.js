@@ -8,7 +8,7 @@ export default function Features() {
   return (
     <div className="features-main-container">
         <SectionTitle title="Features" />
-        <Carousel cards={features} />
+        <Carousel cards={features} buttonText="READ MORE" />
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import Card from './Card';
 
-export default function Carousel({cards}) {
+export default function Carousel({cards , buttonText}) {
   var settings = {
     dots: true,
     infinite: true,
@@ -12,7 +12,7 @@ export default function Carousel({cards}) {
   };
   return (
     <Slider {...settings}>
-      {cards && cards.map((card, index) => <div key={index}><Card {...card} /></div>)}
+      {cards && cards.map((card, index) => <div key={index}><Card {...card} buttonText={buttonText} /></div>)}
     </Slider>
   );
 }
