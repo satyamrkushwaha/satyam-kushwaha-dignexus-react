@@ -121,7 +121,7 @@
 
 .social-band-main-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 10px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import BrandLogo from '../assets/images/features/brand-logo.png'
+import BrandLogo from '../assets/images/top-brand-logo.png'
 
 export default function Brand() {
   return (
