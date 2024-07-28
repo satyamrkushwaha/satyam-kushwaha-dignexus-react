@@ -100,10 +100,6 @@ export default function HeroSection({ image, title, description }) {
                     </div>
                 </div>
             </div>
-            {/* <div className="hero-section-content-container">
-            <h1 className="hero-section-title">{title}</h1>
-            <p className="hero-section-description">{description}</p>
-        </div>  */}
         </div>
     )
 }

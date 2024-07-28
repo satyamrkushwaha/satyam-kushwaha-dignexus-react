@@ -27,13 +27,13 @@ export default function Header() {
             <SocialBand />
           </div>
         </div>
-          <div className='flex  navlinks-donate' >
-            <Navbar />
-            <Search />
-            <Button text="DONATE" leftIcon={true} variant={'red'} />
-          </div>
+        <div className='flex  navlinks-donate' >
+          <Navbar />
+          <Search />
+          <Button text="DONATE" leftIcon={true} variant={'red'} />
+        </div>
       </div>
     </div>
-    <HeroSection/>
-    </>) 
+    <HeroSection />
+  </>)
 }
