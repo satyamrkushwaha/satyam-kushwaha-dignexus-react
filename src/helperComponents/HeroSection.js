@@ -10,7 +10,7 @@ export default function HeroSection({ image, title, description }) {
         return (
             <div
                 className={className}
-                style={{ ...style, display: "block", background: "red" }}
+                style={{ ...style, display: "block", background: "transparent" }}
                 onClick={onClick}
             />
         );
@@ -21,7 +21,7 @@ export default function HeroSection({ image, title, description }) {
         return (
             <div
                 className={className}
-                style={{ ...style, display: "block", background: "green" }}
+                style={{ ...style, display: "block", background: "transparent" }}
                 onClick={onClick}
             />
         );

@@ -9,3 +9,12 @@
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   margin: 10px 0;
 }
+
+.slick-arrow{
+right: 50px !important;
+}
+
+.slick-next:before {
+  content: '>' !important;
+  color: brown  !important;
+}
