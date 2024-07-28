@@ -5,6 +5,30 @@ import ArtImg3 from '../assets/images/artzine/art-3.png'
 import ArtImg4 from '../assets/images/artzine/art-4.png'
 import ArtImg5 from '../assets/images/artzine/art-5.png'
 
+import Rev1 from '../assets/images/reviews/review-1.png'
+import Rev2 from '../assets/images/reviews/review-2.png'
+import Rev3 from '../assets/images/reviews/review-3.png'
+import Rev4 from '../assets/images/reviews/review-4.png'
+import Rev5 from '../assets/images/reviews/review-5.png'
+
+import Fea1 from '../assets/images/features/feature-1.png'
+import Fea2 from '../assets/images/features/feature-2.png'
+import Fea3 from '../assets/images/features/feature-3.png'
+import Fea4 from '../assets/images/features/feature-4.png'
+
+import IntP1 from '../assets/images/premiere/int-1.png'
+import IntP2 from '../assets/images/premiere/int-2.png'
+import IntP3 from '../assets/images/premiere/int-3.png'
+import IntP4 from '../assets/images/premiere/int-4.png'
+
+import Pro1 from '../assets/images/projects/proj-1.png'
+import Pro2 from '../assets/images/projects/proj-2.png'
+import Pro3 from '../assets/images/projects/proj-3.png'
+import Pro4 from '../assets/images/projects/proj-4.png'
+import Pro5 from '../assets/images/projects/proj-5.png'
+
+
+
 
 export const artzine = [
     {
@@ -49,35 +73,35 @@ export const artzine = [
 
 export const reviews = [
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Rev1,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',  
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Rev2,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',    
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Rev3,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Rev4,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',  
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Rev5,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',    
@@ -130,81 +154,57 @@ export const heroRightSection = [
 
 export const features = [
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Fea1,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',  
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Fea2,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',    
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Fea3,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',
 
     },
-    {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-        title: "The Best Art Gallery",    
-        date: "ON APRIL 26TH, 2023",
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',  
-
-    },
-    {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-        title: "The Best Art Gallery",    
-        date: "ON APRIL 26TH, 2023",
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',    
-
-    },
-
-    
 ]
 
 export const interviews = [
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: IntP1,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',  
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: IntP2,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',    
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: IntP3,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: IntP4,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',  
 
     },
-    {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
-        title: "The Best Art Gallery",    
-        date: "ON APRIL 26TH, 2023",
-        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',    
-
-    },
-
     
 ]
 
@@ -291,35 +291,35 @@ export const inConversation = [
 
 export const projects = [
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Pro1,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',  
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Pro2,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',    
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Pro3,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Pro4,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',  
 
     },
     {
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        image: Pro5,
         title: "The Best Art Gallery",    
         date: "ON APRIL 26TH, 2023",
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptas.',    
